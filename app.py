@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def AD():
-	return "This app is running in my serverr\n"
+	return "This app is running\n"
 
 
 if __name__ == "__main__":
